@@ -7,7 +7,9 @@ public class Main {
         Pig myPig = new Pig();
         myPig.animalSound();
         myPig.sleep();
+
         myPig.EatBread();
+        myPig.SomeDefaultMethod();
 
     }
 
