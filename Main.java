@@ -4,13 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Pig myPig = new Pig();
-        myPig.animalSound();
-        myPig.sleep();
+        Pig pig = new Pig();
+        pig.animalSound();
+        pig.sleep();
+        pig.SomeDefaultMethod();
+        pig.EatBread();
 
-        myPig.EatBread();
-        myPig.SomeDefaultMethod();
-
+        //Animal animal = new Animal();
+        Animal animal = pig;
+        animal.animalSound();
     }
 
 }
